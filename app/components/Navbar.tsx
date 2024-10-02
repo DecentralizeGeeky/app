@@ -136,7 +136,7 @@ export const Navbar = () => {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center">
-          <Image src="/logo.png" alt="logo" width={100} height={24} className="w-auto h-auto" />
+          <Image src="/logo.png" alt="logo" width={42} height={50} className="w-auto h-auto" />
         </div>
 
         {/* Navigation for larger screens */}

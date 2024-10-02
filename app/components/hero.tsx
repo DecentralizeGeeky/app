@@ -15,7 +15,7 @@ export default function Hero() {
         </h1>
         
         <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-        Join an army of developers, builders, and chain bridgers at GeekInk. Master Programming, System Design, UI/UX, and Web3 Development through real-world projects guided by industry experts. Gain the skills to lead disruptive innovation in tech&#39s evolving landscape
+        Join an army of developers, builders, and chain bridgers at GeekInk. Master Programming, System Design, UI/UX, and Web3 Development through real-world projects guided by industry experts. Gain the skills to lead disruptive innovation in tech  evolving landscape
         </p>
         
         <Button className="bg-green-600 hover:bg-green-700 text-white text-lg px-8 py-3 rounded-full">
