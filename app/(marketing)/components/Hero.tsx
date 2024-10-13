@@ -1,6 +1,9 @@
 import Image from 'next/image'
 import { Button } from "@/components/ui/button"
 
+// import Waitlist from './Waitlist'
+
+
 export default function Hero() {
   return (
     <div className="w-full bg-gradient-to-b from-white via-emereld-50 to-green-50 pt-8 pb-16">
@@ -23,7 +26,7 @@ export default function Hero() {
         </Button>
         
         <div className="mt-8">
-          {/* <p className="text-sm text-gray-600 mb-2">Over 100,000+ students taught</p> */}
+          {/* <Waitlist /> */}
           <div className="flex justify-center">
             <Image src="/hero.png" alt="Student Avatars" width={200} height={40} />
           </div>
