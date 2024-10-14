@@ -5,7 +5,7 @@ import { getLocalStorage, setLocalStorage } from "../../../utils/storage";
 
 // CookieBanner component that displays a banner for cookie consent.
 export default function CookieBanner() {
-    const [cookieConsent, setCookieConsent] = useState(null);
+    const [cookieConsent, setCookieConsent] = useState<boolean | null>(null);
     const [isLoading, setIsLoading] = useState(true);
 
     // Retrieve cookie consent status from local storage on component mount
